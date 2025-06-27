@@ -26,4 +26,25 @@ if choice1 == "L":
         
 else:
     print("OH NO!! YOU FELL OFF THE CLIFF. GAME OVER")
+      
+******************************************************OUTPUT*************************************************************************************
+
+Welcome to Treasure Island.Your mission is to find the treasure.
+Choose which diection you wanna go.
+Type "R" to go right and Type "L" to go left.
+L
+Yay!! You found the river.
+How do you wanna cross the river?
+type "swim" to swim across the river.
+Type "arrive" to summon a boat.
+arrive
+YOUR BOAT HAS ARRIVED
+.
+YAY! YOU REACHED THE ISLAND UNHARMED.
+there are three cristals, one "yellow", one "red" and one "blue",one of them will take you to the treasure.
+which cristal do you choose?
+yellow
+CONGRATULATIONS!! YOU FOUND THE TREASURE.
+
+=== Code Execution Successful ===
         
