@@ -34,3 +34,24 @@ elif user_choice==computer_choice:
     print("match draw")
 else:
     print("you lost the game")
+
+********************************************************************OUTPUT*********************************************
+what is your choice?
+Type 0 for rock, 1 for paper and 2 for scissors.
+2
+Your choice is :
+ 2
+Computer's choice is:
+ 0
+choices made by user and computer are as follows:
+
+sreejeeta:
+ scissors
+computer:
+ rock
+Result of the game :
+computer wins
+
+=== Code Execution Successful ===
+
+
