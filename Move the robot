@@ -1,0 +1,27 @@
+def move_diag():
+    move()
+    turn_left()
+
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+def move_diag_down():
+    move()           # Move right (if that's your current direction)
+    turn_right()     # Turn to face down
+    move()           # Move down
+    turn_left()      # Turn to face right again
+
+# First, go up diagonally to (10,10)
+for step in range(9):
+    move_diag()      # Move right and turn to face up
+    move()           # Move up
+    turn_right()     # Turn to face right
+
+# Now at (10,10), turn around to come back
+turn_right()         # Additional turn to face down-left direction
+
+# Then go down diagonally to (1,1)
+for step in range(9):
+    move_diag_down() # Move right and then down
